@@ -3,7 +3,7 @@ const CONFIG = {
   profile: {
     name: "Ignatius",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
+    role: "Verdammt",
     bio: "Keep Being Empty.",
     email: "ignatius0dev@gmail.com",
     linkedin: "",
@@ -54,7 +54,7 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: false,
+    enable: true,
     config: {
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
       "issue-term": "og:title",
