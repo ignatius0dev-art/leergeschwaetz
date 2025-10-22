@@ -17,9 +17,6 @@ const CommentBox: React.FC<Props> = ({ data }) => {
   return (
     <div>
       {CONFIG.utterances.enable && <UtterancesComponent issueTerm={data.id} />}
-      {CONFIG.cusdis.enable && (
-        <CusdisComponent id={data.id} slug={data.slug} title={data.title} />
-      )}
     </div>
   )
 }
