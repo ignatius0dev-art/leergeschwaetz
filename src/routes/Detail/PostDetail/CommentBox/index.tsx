@@ -8,12 +8,6 @@ const UtterancesComponent = dynamic(
   },
   { ssr: false }
 )
-const CusdisComponent = dynamic(
-  () => {
-    return import("./Cusdis")
-  },
-  { ssr: false }
-)
 
 type Props = {
   data: TPost
